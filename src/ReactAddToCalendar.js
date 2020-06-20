@@ -136,7 +136,7 @@ export default class ReactAddToCalendar extends React.Component {
         this.props.buttonIconClass === "react-add-to-calendar__icon--"
           ? `${this.props.buttonIconClass}${iconPlacement}`
           : this.props.buttonIconClass;
-      const iconPrefix = this.props.useFontAwesomeIcons ? "fa fa-" : "";
+      const iconPrefix = this.props.useFontAwesomeIcons ? "fab fa-" : "";
 
       const mainButtonIconClass =
         template[0] === "caret"
